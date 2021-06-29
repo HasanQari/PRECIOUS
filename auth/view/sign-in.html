@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,8 +22,34 @@
     <link rel="stylesheet" href="../../asset/css/app.css">
     <link rel="stylesheet" href="../../res/color/color.css">
 </head>
-<body>
-    
+
+<body class="bg-d">
+
+    <div class="container">
+        <a href="../../index.html"><i class="social-icon bi bi-x"></i></a>
+        <div class="mt-3">
+            <div class="text-center">
+                <h1 class="g2 f-din bold mb-4">تسجيل الدخول</h1>
+            </div>
+            <form action="../config/sign-in.php" method="POST" class="mb-2">
+                <input type="email" name="" id="" class="form-control my-3" placeholder="البريد الإلكتروني" required>
+                <input type="password" name="" id="" class="form-control" placeholder="كلمة المرور" required>
+                <a href="forget-pass.html" class="o mb-3">نسيت كلمة المرور؟</a>
+                <div class="text-center mt-3">
+                    <input type="submit" value="تسجيل" class="btn btn-g w50 py-2">
+                </div>
+            </form>
+            <div class="text-center">
+                <p class="mt-4 whitey" id="txt-optionOR">أو سجل باستخدام</p>
+                <a><i class="social-icon px-2 bi bi-google"></i></a>
+                <a><i class="social-icon px-2 bi bi-facebook"></i></a>
+                <a><i class="social-icon px-2 bi bi-github"></i></a>
+            </div>
+            <div class="text-center my-2">
+                <p class="whitey">ليس لديك حساب ؟ <a href="sign-up.html" class="o">سجل الآن</a></p>
+            </div>
+        </div>
+    </div>
 
     <script>
         if ('serviceWorker' in navigator) {
@@ -40,4 +67,5 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
