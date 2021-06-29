@@ -26,22 +26,23 @@
 <body class="bg-d">
 
     <div class="container">
-        <div class="my-5">
+        <a href="../../index.html"><i class="social-icon bi bi-x"></i></a>
+        <div class="mt-3">
             <div class="text-center">
-                <h1 class="g2 f-din bold my-5">تسجيل جديد</h1>
+                <h1 class="g2 f-din bold mb-4">تسجيل جديد</h1>
             </div>
             <form action="../config/sign-up.php" method="POST" class="mb-2">
-                <input type="text" name="" id="" class="form-control my-3" placeholder="اسم المستخدم">
-                <input type="email" name="" id="" class="form-control " placeholder="البريد الإلكتروني">
-                <input type="password" name="" id="" class="form-control my-3" placeholder="كلمة المرور">
-                <input type="password" name="" id="" class="form-control " placeholder="اعد كتابة كلمة المرور">
+                <input type="text" name="" id="" class="form-control my-3" placeholder="اسم المستخدم" required>
+                <input type="email" name="" id="" class="form-control " placeholder="البريد الإلكتروني" required>
+                <input type="password" name="" id="" class="form-control my-3" placeholder="كلمة المرور" required>
+                <input type="password" name="" id="" class="form-control " placeholder="اعد كتابة كلمة المرور" required>
                 <div class="my-3">
-                    <input type="checkbox" name="" id="cBox" class="form-check-input">
+                    <input type="checkbox" name="" id="cBox" class="form-check-input" required>
                     <label class="form-check-label mx-2 whitey" for="cBox">أوافق على <a href="" class="o">الشروط
                             والأحكام</a></a></label>
                 </div>
                 <div class="text-center">
-                    <input type="button" value="تسجيل" class="btn btn-g w50 py-2">
+                    <input type="submit" value="تسجيل" class="btn btn-g w50 py-2">
                 </div>
             </form>
             <div class="text-center">
@@ -51,7 +52,7 @@
                 <a><i class="social-icon px-2 bi bi-github"></i></a>
             </div>
             <div class="text-center my-2">
-                <p class="whitey">ليديك حساب بالفعل ؟ <a href="" class="o">سجل دخولك الآن</a></p>
+                <p class="whitey">لديك حساب بالفعل ؟ <a href="sign-in.html" class="o">سجل دخولك الآن</a></p>
             </div>
         </div>
     </div>
