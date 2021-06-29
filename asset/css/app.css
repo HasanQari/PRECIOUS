@@ -1,11 +1,16 @@
 /* general css ele */
 
-.w80 {
-    width: 80%;
+@font-face {
+    font-family: DIN;
+    src: url(res/font/DINArabic-Regular.ttf);
 }
 
-.bg-d {
-    background-color: #3b3b43;
+.f-din {
+    font-family: DIN;
+}
+
+.w80 {
+    width: 80%;
 }
 
 .color-white {
@@ -24,13 +29,30 @@
     border-color: #D7B04D;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
 /* main page */
 
-#btn-go{
-    font-size: 28px;
+#btn-go {
+    font-size: 26px;
     font-weight: bold;
 }
 
-#link-skip:hover{
+#link-skip:hover {
     color: #fecf47ff;
+}
+
+#img-logo {
+    border-radius: 50px;
+    width: 80%;
+    margin: 5%;
 }

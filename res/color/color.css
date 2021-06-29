@@ -37,3 +37,41 @@
 .blacky{
     color:#000;
 }
+
+.bg-d {
+    /* --onyx */
+    background-color: #3a3a44ff;
+}
+
+.bg-g1 {
+    /* --field-drab */
+    background-color: #6d5726ff;
+}
+
+.bg-g2 {
+    /* --satin-sheen-goldc */
+    background-color: #c19d46ff;
+}
+
+.bg-g3 {
+    /* --gold-metallic */
+    background-color: #d7b04dff;
+}
+
+.bg-g4 {
+    /* --sunglow */
+    background-color: #fecf47ff;
+}
+
+.bg-o {
+    /* --cadmium-orange */
+    background-color: #f68f34ff;
+}
+
+.bg-whitey{
+    background-color:#fff;
+}
+
+.bg-blacky{
+    background-color:#000;
+}
