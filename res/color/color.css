@@ -1,0 +1,39 @@
+/* CSS HEX */
+
+.d {
+    /* --onyx */
+    color: #3a3a44ff;
+}
+
+.g1 {
+    /* --field-drab */
+    color: #6d5726ff;
+}
+
+.g2 {
+    /* --satin-sheen-goldc */
+    color: #c19d46ff;
+}
+
+.g3 {
+    /* --gold-metallic */
+    color: #d7b04dff;
+}
+
+.g4 {
+    /* --sunglow */
+    color: #fecf47ff;
+}
+
+.o {
+    /* --cadmium-orange */
+    color: #f68f34ff;
+}
+
+.whitey{
+    color:#fff;
+}
+
+.blacky{
+    color:#000;
+}

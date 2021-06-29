@@ -1,0 +1,36 @@
+/* general css ele */
+
+.w80 {
+    width: 80%;
+}
+
+.bg-d {
+    background-color: #3b3b43;
+}
+
+.color-white {
+    color: white;
+}
+
+.btn-g {
+    color: #fff;
+    background-color: #C19D46;
+    border-color: #C19D46;
+}
+
+.btn-g:hover {
+    color: #000;
+    background-color: #D7B04D;
+    border-color: #D7B04D;
+}
+
+/* main page */
+
+#btn-go{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#link-skip:hover{
+    color: #fecf47ff;
+}
