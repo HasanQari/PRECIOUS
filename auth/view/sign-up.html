@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#d7b04d" />
+
+    <title>بريشس | PRECIOUS</title>
+
+    <link rel="shortcut icon" href="../../res/img/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../../res/img/logo.png">
+
+    <link rel="manifest" href="../../manifest.json">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../asset/css/app.css">
+    <link rel="stylesheet" href="../../res/color/color.css">
+</head>
+
+<body class="bg-d">
+
+    <div class="container">
+        <div class="my-5">
+            <div class="text-center">
+                <h1 class="g2 f-din bold my-5">تسجيل جديد</h1>
+            </div>
+            <form action="../config/sign-up.php" method="POST" class="mb-2">
+                <input type="text" name="" id="" class="form-control my-3" placeholder="اسم المستخدم">
+                <input type="email" name="" id="" class="form-control " placeholder="البريد الإلكتروني">
+                <input type="password" name="" id="" class="form-control my-3" placeholder="كلمة المرور">
+                <input type="password" name="" id="" class="form-control " placeholder="اعد كتابة كلمة المرور">
+                <div class="my-3">
+                    <input type="checkbox" name="" id="cBox" class="form-check-input">
+                    <label class="form-check-label mx-2 whitey" for="cBox">أوافق على <a href="" class="o">الشروط
+                            والأحكام</a></a></label>
+                </div>
+                <div class="text-center">
+                    <input type="button" value="تسجيل" class="btn btn-g w50 py-2">
+                </div>
+            </form>
+            <div class="text-center">
+                <p class="mt-4 whitey" id="txt-optionOR">أو سجل باستخدام</p>
+                <a><i class="social-icon px-2 bi bi-google"></i></a>
+                <a><i class="social-icon px-2 bi bi-facebook"></i></a>
+                <a><i class="social-icon px-2 bi bi-github"></i></a>
+            </div>
+            <div class="text-center my-2">
+                <p class="whitey">ليديك حساب بالفعل ؟ <a href="" class="o">سجل دخولك الآن</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('../../sw.js')
+                .then(function (reg) {
+                    console.log('SW Registered', reg);
+                })
+                .catch(function (err) {
+                    console.log('SW Not Registered', err);
+                });
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

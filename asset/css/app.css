@@ -12,6 +12,32 @@
 .w80 {
     width: 80%;
 }
+.w70 {
+    width: 70%;
+}
+.w60 {
+    width: 60%;
+}
+.w50 {
+    width: 50%;
+}
+.w40 {
+    width: 40%;
+}
+.w30 {
+    width: 30%;
+}
+.w20 {
+    width: 20%;
+}
+
+.w10 {
+    width: 10%;
+}
+
+.bold{
+    font-weight: bold;
+}
 
 .color-white {
     color: white;
@@ -55,4 +81,21 @@ body {
     border-radius: 50px;
     width: 80%;
     margin: 5%;
+}
+
+#txt-intro{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* auth pages  */
+
+#txt-optionOR{
+    border-top: 1px solid #ccc;
+    padding-top: 5%;
+}
+
+.social-icon{
+    color: #FECF47;
+    font-size: 38px;
 }
