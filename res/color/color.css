@@ -75,3 +75,41 @@
 .bg-blacky{
     background-color:#000;
 }
+
+.btn-d {
+    /* --onyx */
+    background-color: #3a3a44ff;
+}
+
+.btn-g1 {
+    /* --field-drab */
+    background-color: #6d5726ff;
+}
+
+.btn-g2 {
+    /* --satin-sheen-goldc */
+    background-color: #c19d46ff;
+}
+
+.btn-g3 {
+    /* --gold-metallic */
+    background-color: #d7b04dff;
+}
+
+.btn-g4 {
+    /* --sunglow */
+    background-color: #fecf47ff;
+}
+
+.btn-o {
+    /* --cadmium-orange */
+    background-color: #f68f34ff;
+}
+
+.btn-whitey{
+    background-color:#fff;
+}
+
+.btn-blacky{
+    background-color:#000;
+}

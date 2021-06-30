@@ -12,24 +12,31 @@
 .w90 {
     width: 90%;
 }
+
 .w80 {
     width: 80%;
 }
+
 .w70 {
     width: 70%;
 }
+
 .w60 {
     width: 60%;
 }
+
 .w50 {
     width: 50%;
 }
+
 .w40 {
     width: 40%;
 }
+
 .w30 {
     width: 30%;
 }
+
 .w20 {
     width: 20%;
 }
@@ -38,7 +45,7 @@
     width: 10%;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
 
@@ -86,7 +93,7 @@ body {
     margin: 5%;
 }
 
-#txt-intro{
+#txt-intro {
     font-size: 20px;
     font-weight: 400;
     margin: auto;
@@ -94,12 +101,19 @@ body {
 
 /* auth pages  */
 
-#txt-optionOR{
+#txt-optionOR {
     border-top: 1px solid #ccc;
     padding-top: 5%;
 }
 
-.social-icon{
+.social-icon {
     color: #FECF47;
     font-size: 38px;
 }
+
+.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn:active, .show>.btn.dropdown-toggle {
+    color: #000;
+    background-color: #FECF47;
+    border-color: #FECF47;
+}
+
