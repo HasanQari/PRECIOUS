@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,17 +22,24 @@
     <link rel="stylesheet" href="asset/css/app.css">
     <link rel="stylesheet" href="res/color/color.css">
 </head>
-<body>
-    
+
+<body class="bg-d">
+
+    <div class="container">
+        <div class="">
+
+
+        </div>
+    </div>
 
     <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js')
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("/sw.js")
                 .then(function (reg) {
-                    console.log('SW Registered', reg);
+                    console.log("SW Registered", reg);
                 })
                 .catch(function (err) {
-                    console.log('SW Not Registered', err);
+                    console.log("SW Not Registered", err);
                 });
         }
     </script>
@@ -40,4 +48,5 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -32,23 +32,23 @@
                 <h1 class="g2 f-din bold mb-4">تسجيل جديد</h1>
             </div>
             <form action="../config/sign-up.php" method="POST" class="mb-2">
-                <input type="text" name="" id="" class="form-control my-3" placeholder="اسم المستخدم" required>
-                <input type="email" name="" id="" class="form-control " placeholder="البريد الإلكتروني" required>
-                <input type="password" name="" id="" class="form-control my-3" placeholder="كلمة المرور" required>
-                <input type="password" name="" id="" class="form-control " placeholder="اعد كتابة كلمة المرور" required>
+                <input type="text" name="username" id="" class="form-control my-3" placeholder="اسم المستخدم" required>
+                <input type="email" name="email" id="" class="form-control " placeholder="البريد الإلكتروني" required>
+                <input type="password" name="pass" id="" class="form-control my-3" placeholder="كلمة المرور" required>
+                <input type="password" name="pass-again" id="" class="form-control " placeholder="اعد كتابة كلمة المرور" required>
                 <label for="user-type"  class="my-2 whitey">اختر نوع الحساب:</label>
                 <div class="text-center" id="user-type">
-                    <input type="radio" class="btn-check" name="ut" id="option1" autocomplete="off" required>
+                    <input type="radio" class="btn-check" name="ut" value="1" id="option1" autocomplete="off" required>
                     <label class="btn btn-g1 bold" for="option1">موهوب</label>
 
-                    <input type="radio" class="btn-check" name="ut" id="option2" autocomplete="off" required>
+                    <input type="radio" class="btn-check" name="ut" value="2" id="option2" autocomplete="off" required>
                     <label class="btn btn-g1 bold" for="option2">مستفيد</label>
 
-                    <input type="radio" class="btn-check" name="ut" id="option3" autocomplete="off" required>
+                    <input type="radio" class="btn-check" name="ut" value="3" id="option3" autocomplete="off" required>
                     <label class="btn btn-g1 bold" for="option3">شركة/مؤسسة</label>
                 </div>
                 <div class="my-3">
-                    <input type="checkbox" name="" id="cBox" class="form-check-input" required>
+                    <input type="checkbox" name="policy" id="cBox" class="form-check-input" required>
                     <label class="form-check-label mx-2 whitey" for="cBox">أوافق على <a href="" class="o">الشروط
                             والأحكام</a></a></label>
                 </div>
