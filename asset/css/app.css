@@ -149,3 +149,13 @@ body {
     font-size: 30px;
     color: #F68F34;
 }
+
+.btn-icon {
+    font-size: 60px;
+}
+
+#btn-container {
+    border: 1px solid #C19D46;
+    border-radius: 10px;
+    box-shadow: 25px #ccc;
+}

@@ -57,15 +57,17 @@ if ($_SESSION) {
             <i class="prof-img bi bi-person-circle"> <?php echo $_SESSION['fname'] ?></i>
         </div>
 
-        <div class="list-group mt-3">
+        <div class="list-group mt-3 mb-5">
             <a href="" class="list-group-item list-group-item-action">المعلومات الشخصية</a>
             <a href="" class="list-group-item list-group-item-action">الموهبة والتفضيلات</a>
             <a href="" class="list-group-item list-group-item-action">العضويات والاشتراكات</a>
+            <a href="" class="list-group-item list-group-item-action">عروض الشركات</a>
             <br>
             <a href="" class="list-group-item list-group-item-action">من نحن</a>
             <a href="" class="list-group-item list-group-item-action">السياسات والأحكام</a>
             <a href="" class="list-group-item list-group-item-action">طريقة الاستخدام</a>
             <a href="" class="list-group-item list-group-item-action">تقييم التطبيق</a>
+            <a href="https://wa.link/bw596k" class="list-group-item list-group-item-action">التواصل مع الدعم الفني</a>
             <br>
             <a href="../../auth/config/sign-out.php" class="list-group-item list-group-item-action">تسجيل الخروج</a>
         </div>
