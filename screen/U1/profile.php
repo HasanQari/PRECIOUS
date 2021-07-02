@@ -54,56 +54,56 @@ if ($_SESSION) {
         </div>
 
         <div class="">  
-            <i class="prof-img bi bi-person-circle"> <?php echo $_SESSION['fname'] ?></i>
+            <i class="prof-img bi bi-person-circle"> Talent</i>
         </div>
 
         <div class="container-fluid mb-3 py-3 text-center">
             <div id="PORTFOLIO" class="row">
                 <div class="col">
                     <div id="btn-container" class="text-center bg-g2 py-1 px-1 whitey">
-                        <i class="bi bi-award btn-icon"></i>
+                        <a href="view/mwahub.php"><i class="bi bi-award btn-icon whitey"></i></a>
                         <h6 class="whitey">إبداعاتي</h6>
                     </div>
                 </div>
                 <div class="col">
                 <div id="btn-container" class="text-center bg-g2 py-1 px-1 whitey">
-                        <i class="bi bi-binoculars btn-icon"></i>
+                <a href="view/mwahub.php"><i class="bi bi-binoculars btn-icon whitey"></i></a>
                         <h6 class="whitey">اكتشف المواهب</h6>
                     </div>                </div>
             </div><br>
             <div id="PORTFOLIO" class="row">
                 <div class="col">
                 <div id="btn-container" class="text-center bg-g2 py-1 px-1 whitey">
-                        <i class="bi bi-youtube btn-icon"></i>
+                <a href="course.php"><i class="bi bi-youtube btn-icon whitey"></i></a>
                         <h6 class="whitey">دوراتي الخاصة</h6>
                     </div>                </div>
                 <div class="col">
                 <div id="btn-container" class="text-center bg-g2 py-1 px-1 whitey">
-                        <i class="bi bi-film btn-icon"></i>
+                <a href="course.php"><i class="bi bi-film btn-icon whitey"></i></a>
                         <h6 class="whitey">الدورات والمهارات</h6>
                     </div>                </div>
             </div><br>
             <div id="PORTFOLIO" class="row">
                 <div class="col">
                 <div id="btn-container" class="text-center bg-g2 py-1 px-1 whitey">
-                        <i class="bi bi-graph-up btn-icon"></i>
+                <a href="store.php"><i class="bi bi-bag btn-icon whitey"></i></a>
                         <h6 class="whitey">منتجاتي</h6>
                     </div>                </div>
                 <div class="col">
                 <div id="btn-container" class="text-center bg-g2 py-1 px-1 whitey">
-                        <i class="bi bi-basket3 btn-icon"></i>
+                <a href="store.php"><i class="bi bi-basket2 btn-icon whitey"></i></a>
                         <h6 class="whitey">منتجات الموهوبين</h6>
                     </div>                </div>
             </div><br>
             <div id="PORTFOLIO" class="row">
                 <div class="col">
                 <div id="btn-container" class="text-center bg-g2 py-1 px-1 whitey">
-                        <i class="bi bi-building btn-icon"></i>
+                <a href=""><i class="bi bi-building btn-icon whitey"></i></a>
                         <h6 class="whitey">عروض الشركات</h6>
                     </div>                </div>
                 <div class="col">
                 <div id="btn-container" class="text-center bg-g2 py-1 px-1 whitey">
-                        <i class="bi bi-cash-coin btn-icon"></i>
+                <a href=""><i class="bi bi-cash-coin btn-icon whitey"></i></a>
                         <h6 class="whitey">ارباحي</h6>
                     </div>                </div>
             </div><br>

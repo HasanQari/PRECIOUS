@@ -22,7 +22,7 @@ if ($result) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta http-equiv="refresh" content="5;url=../view/sign-in.html">
+    <meta http-equiv="refresh" content="5;url=../view/sign-in.php">
 
     <meta name="theme-color" content="#d7b04d" />
 
@@ -83,7 +83,7 @@ if ($result) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta http-equiv="refresh" content="5;url=../view/sign-in.html">
+    <meta http-equiv="refresh" content="5;url=../view/sign-in.php">
 
     <meta name="theme-color" content="#d7b04d" />
 

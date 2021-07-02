@@ -2,7 +2,7 @@
 session_start();
 
 if ($_SESSION) {
-    if ($_SESSION['usertype'] == "1") {
+    if ($_SESSION['usertype'] == "3") {
         echo '
         
         ';
@@ -48,20 +48,20 @@ if ($_SESSION) {
             <div class="col">
                 <p class="h5 g3 mt-3">مساء الخير ...</p>
             </div>
-            <!-- <div class="col text-start">
-                <a href="../../index.html"><i class="social-icon bi bi-box-arrow-left"></i></a>
-            </div> -->
+            <div class="col text-start">
+                <a href="profile.php"><i class="social-icon bi bi-arrow-left"></i></a>
+            </div>
         </div>
 
         <div class="">
-            <i class="prof-img bi bi-person-circle"> <?php echo $_SESSION['fname'] ?></i>
+            <i class="prof-img bi bi-person-circle"> <?php echo $_SESSION['username'] ?></i>
         </div>
 
         <div class="list-group mt-3 mb-5">
             <a href="view/account.php" class="list-group-item list-group-item-action">المعلومات الشخصية</a>
             <a href="" class="list-group-item list-group-item-action">الموهبة والتفضيلات</a>
             <a href="" class="list-group-item list-group-item-action">العضويات والاشتراكات</a>
-            <a href="" class="list-group-item list-group-item-action">عروض الشركات</a>
+            <!-- <a href="" class="list-group-item list-group-item-action">عروض الشركات</a> -->
             <br>
             <a href="" class="list-group-item list-group-item-action">من نحن</a>
             <a href="" class="list-group-item list-group-item-action">السياسات والأحكام</a>
@@ -73,7 +73,7 @@ if ($_SESSION) {
         </div>
     </div>
 
-    <nav class="">
+    <!-- <nav class="">
         <div class=" btm-nav d-flex justify-content-between px-4 py-1">
             <a class="" href="profile.php"><i class="btn-nav-icon g2 bi bi-house"></i></a>
             <a class="" href="store.php"><i class="btn-nav-icon g2 bi bi-shop"></i></a>
@@ -81,7 +81,7 @@ if ($_SESSION) {
             <a class="" href="#"><i class="btn-nav-icon active-icon bi bi-gear"></i></a>
 
         </div>
-    </nav>
+    </nav> -->
 
     <script>
         if ("serviceWorker" in navigator) {
